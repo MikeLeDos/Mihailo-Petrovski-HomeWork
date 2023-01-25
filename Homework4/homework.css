@@ -1,0 +1,17 @@
+body{
+    font-family: serif;
+    background-color: black;
+    color: aliceblue;
+    background-image: url(./grey-oak-tree-hi.png);
+    background-position: top left;
+    background-repeat:no-repeat;
+    letter-spacing: 3px;
+    text-align:center;
+    line-height: 40px;    
+    font-size: 25px; 
+}
+::first-letter{
+    font-size: larger;
+    font-weight: bold;
+    color:royalblue;
+}
