@@ -46,18 +46,19 @@
 }
 
 .navbar a:hover{
-    background: #ddd;
-    color: black;
-    list-style-position: none;
+    background: rgb(221, 221, 221);
+    color: rgb(205, 38, 38);
     margin: 0;
     padding: 0;
     position: sticky;
+    z-index: -1;
+}
+.navbar:hover{
+    position: sticky;
     z-index: auto;
-
 }
 .navbar li{
     display: inline-block;
-    
 }
 .par1:hover{
     width: 350px;
@@ -70,14 +71,46 @@
 }
 .navbar{
     font-size: 30px;letter-spacing: 3px; word-spacing: 15px;
-    
 }
 #MJ{
     font-size: x-large;letter-spacing: 4px;
-
 }
-
-
+#Barca1{
+    animation: Barca1 10s linear 1s infinite alternate ;
+    padding: 40px;
+}
+@keyframes Barca1 {
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(359deg);}
+}
+#Barca2{
+    animation: Barca2 5s linear 1s infinite alternate ;
+    padding: 40px;
+}
+@keyframes Barca2 {
+    0%{transform:scale(.5)}
+    50%{transform:scale(1.5)}
+    100%{transform:scale(2.0)}
+}
+#Barca3{
+    animation: Barca3 7s linear 1s infinite alternate ;
+    padding: 40px;
+}
+@keyframes Barca3 {
+    0%{transform:translate(0px,0px)}
+    50%{transform: translate(260px,0px);}
+    100%{transform:translate(0px,0px)}
+}
+#Barca4{
+    animation: Barca4 7s linear 1s infinite alternate ;
+    padding: 40px;
+}
+@keyframes Barca4 {
+    0%{transform:translate(0px,0px)}
+    50%{transform: translate(-260px,0px);}
+    100%{transform:translate(0px,0px)}
+}
 
 
 
