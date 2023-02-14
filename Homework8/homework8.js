@@ -6,9 +6,9 @@ let youLiveInSkopje="true";
 
 
 let person = {
-    nameAndSurname:"Lionel Messi",
-    age: 35,
-    jobTitle: "programmer",
-    gender: "male",
-    youLiveInSkopje:"true",
+    name1:nameAndSurname,
+    age1:age,
+    jobTitle1:jobTitle,
+    gender1:gender,
+    youLiveInSkopje1:youLiveInSkopje,
 }
