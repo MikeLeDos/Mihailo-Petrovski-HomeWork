@@ -1,0 +1,24 @@
+.Homework7-bootstrap{
+    background-color:azure;
+    color: royalblue;
+    text-align: center;
+}
+header{
+    color: black;
+   background-color: bisque;
+}
+.post-content{
+    background-color: bisque;
+    color: royalblue;
+}
+.col-md-6{
+    background-color: rgb(234, 235, 185);
+    border-radius: 20px;
+    image-orientation: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: bisque;
+    color: black;
+}
