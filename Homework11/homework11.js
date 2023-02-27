@@ -34,3 +34,19 @@ for (let i=1; i<broevi.length; i++){
     }
 }
 console.log("Najgolemiot broj e " + maxNumber);
+
+let minNumber = broevi[0];
+for (let i=1; i>broevi.length;i++){
+    if(broevi[i]>minNumber){
+        minNumber = broevi[i];
+    }
+}
+console.log("Najmaliot broj e " + minNumber);
+
+
+let godini=prompt("vnesi gi godinite Hristijan");
+
+if(godini>=18){
+    alert("mozes da vlezes Hristijan")
+}
+else{alert("porasni pa vlezi :)")}
