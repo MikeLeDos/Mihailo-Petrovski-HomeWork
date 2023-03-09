@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- prv del od domasnata -->
+    <p class="lgbt">PRV DEL OD DOMASNATA</p>
+    <form id="myForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="last name">Last Name</label>
+        <input type="text" id="lastname" lastname="lastname"><br>
+
+        <label for="emal">Email</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country"><br>
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city"><br>
+
+        <button type="submit" id="submitBtn">Submit</button>
+        <style>
+            .lgbt{
+                background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+                width: fit-content;
+            }
+        
+            button{
+                background-color: antiquewhite;
+                color: blue;
+            }
+            .error{
+                color: red;
+                font-size: large;
+            }
+        
+        </style>
+
+    </form>
+    <br><br>
+    <!-- vtor del od domasnata -->
+    <p class="lgbt">VTOR DEL OD DOMASNATA</p> 
+    <form >
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" onBlur="vnesipodatoci(this)" onInput="vnesipodatoci(this)">
+        <span class="error"></span><br>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" lastname="lastname" onBlur="vnesipodatoci(this)" onInput="vnesipodatoci(this)">
+        <span class="error"></span><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" onBlur="vnesipodatoci(this)" onInput="vnesipodatoci(this)">
+        <span class="error"></span><br>
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" onBlur="vnesipodatoci(this)" onInput="vnesipodatoci(this)">
+        <span class="error"></span><br>
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" onBlur="vnesipodatoci(this)" onInput="vnesipodatoci(this)">
+        <span class="error"></span><br>
+
+        <button type="submit" id="submitBtn">Submit</button>
+        <br><br>
+    </form>
+    <p class="lgbt">TRET DEL OD DOMASNATA</p>
+
+    <!-- tret del od domasnata -->
+
+    <button id="click-me">STISNI PRIJATELE NE SE SRAMI</button><br><br>
+    <button id="reset">RESET PRIJATELE</button>
+
+    <script src="/Mihailo-Petrovski-HomeWork/Homework14/homework14.js"></script>
+</body>
+</html>
