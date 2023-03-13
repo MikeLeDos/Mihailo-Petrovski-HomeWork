@@ -68,8 +68,7 @@ function stopDelayedCountdown() {
 
 const url=new URL("https://www.youtube.com/watch?v=_7rT-ixivWU");
 
-console.log("Protocol: " + url.protocol);
-console.log("Host " + url.host);
-console.log("Pathname " + url.pathname);
-console.log("Search " + url.search);
-
+console.log("Protocol: " + url.protocol); //"https:"
+console.log("Host " + url.host); //"www.youtube.com"
+console.log("Pathname " + url.pathname); //"/watch"
+console.log("Search " + url.search); //"?v=_7rT-ixivWU"
