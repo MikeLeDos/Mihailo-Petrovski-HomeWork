@@ -9,7 +9,6 @@
     padding: 20px;
     border:solid;
     display: block;
-
 }
 .par2{
     color: yellow;
@@ -36,29 +35,31 @@
     display: block;
 }
 .navbar{
-  
     background-color:yellowgreen;
     position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
-
 }
-
-.navbar a:hover{
+/* .navbar a:hover{
     background: rgb(221, 221, 221);
     color: rgb(205, 38, 38);
     margin: 0;
     padding: 0;
-    position: sticky;
     z-index: -1;
 }
 .navbar:hover{
-    position: sticky;
-    z-index: auto;
-}
+   
+    z-index: -1;
+} */
 .navbar li{
     display: inline-block;
+}
+main {
+    height: 100px
+}
+main:hover ~ #MJ {
+    z-index: 1000000;
 }
 .par1:hover{
     width: 350px;
@@ -73,7 +74,7 @@
     font-size: 30px;letter-spacing: 3px; word-spacing: 15px;
 }
 #MJ{
-    font-size: x-large;letter-spacing: 4px;
+    font-size: x-large;letter-spacing: 4px; position: relative;
 }
 #Barca1{
     animation: Barca1 10s linear 1s infinite alternate ;

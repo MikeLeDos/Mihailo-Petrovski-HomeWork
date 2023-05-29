@@ -15,3 +15,14 @@ body{
     font-weight: bold;
     color:royalblue;
 }
+.secondparagraph{
+    color:aquamarine;
+}
+span{
+    background-color: yellowgreen;
+}
+#myP{
+    background-color: red;
+    padding: 10px;
+    text-decoration: underline overline dotted yellow;
+}

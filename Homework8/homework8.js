@@ -12,3 +12,4 @@ let person = {
     gender1:gender,
     youLiveInSkopje1:youLiveInSkopje,
 }
+

@@ -64,8 +64,29 @@ if(Boolean === true && console.log(a/b)<3){
     console.log(var7 + " "+ "darkness");
 }
 
+const d = new Date();
+// year = d.getFullYear();
+alert(d);
+ 
+let r = Math.random();
 
-
+let e = Math.max(10, 20);
+let i;
+for(i=0; i<16; i++){
+    console.log(i);
+}
+const fruits=["Apple", "Banana","Orange"];
+for(x of fruits){
+    console.log(x);
+}
+let j=0;
+while(j<10){
+    console.log(j); j++
+}
+let k=0;
+while(k<16){
+    console.log(k);k=k+4;
+}
 
 
 
